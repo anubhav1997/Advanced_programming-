@@ -74,7 +74,7 @@ public class parse_xml{
 
      };
 
-       saxParser.parse("c:\\file.xml", handler);
+       saxParser.parse("file.xml", handler);
 
      } catch (Exception e) {
        e.printStackTrace();
