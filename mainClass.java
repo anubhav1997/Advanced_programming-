@@ -5,7 +5,7 @@ class mainClass{
 	public static void main(String[] args){
 		s = new Scanner(System.in);
 		parse_xml getdata = new parse_xml();
-	
+		
 	
 	}
 

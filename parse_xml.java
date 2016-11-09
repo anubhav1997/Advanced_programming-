@@ -4,10 +4,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-public class ReadXMLFile {
+public class parse_xml{
 
-   public static void main(String argv[]) {
-
+   //public static void main(String argv[]) {
+	public static void ReadXMLFile(){
     try {
 
 	SAXParserFactory factory = SAXParserFactory.newInstance();
