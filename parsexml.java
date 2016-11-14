@@ -3,11 +3,8 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
 public class parsexml {
-
-   public static void main(String argv[]) {
-
+    public static void main(String argv[]) {
     try {
 
     SAXParserFactory factory = SAXParserFactory.newInstance();
@@ -25,7 +22,7 @@ public class parsexml {
 		boolean url = false;
 		boolean ee = false;
 
-		public void startElement(String uri, String localName,String qName, Attributes attributes) throws SAXException {
+		public void startElement(String uri, String localName,String qName,Attributes attributes) throws SAXException {
 
 		//System.out.println("Start Element :" + qName);
 
@@ -65,15 +62,10 @@ public class parsexml {
 			ee = true;
 		}
 		
-
-		
-
-
-		}
+	}
 
 		public void endElement(String uri, String localName,String qName) throws SAXException {
 
-		//System.out.println("End Element :" + qName);
 														}
 
 		public void characters(char ch[], int start, int length) throws SAXException {
