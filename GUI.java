@@ -13,19 +13,15 @@ public class GUI {
 	
 	public static void getframe(){	
 		frame1 = new JFrame();
-		//JPanel p = new JPanel();
 		JLabel l = new JLabel("DBLP QUERY ENGINE",JLabel.CENTER);
 		String[] query = {"Select Query","Query 1", "Query 2"};
 		JComboBox jbox = new JComboBox(query);
 		l.setBounds(300,20,500,75);
-		//l.setBackground(Color.YELLOW);
 		l.setFont(new Font("Serif", Font.PLAIN, 40));
 		JTextField results = new JTextField();
 		jbox.setBounds(50,125,160,30);
 		event1 e1 = new event1();
 		jbox.addItemListener(e1);
-		//p.add(l);
-		//p.setBounds(10,10,100,700);
 		frame1.add(l);
 		frame1.add(jbox);
 		if(choice ==1){
