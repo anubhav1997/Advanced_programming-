@@ -25,7 +25,7 @@ public class GUI {
 		frame1.add(l);
 		frame1.add(jbox);
 		if(choice ==1){
-			String[] searchby = {"Search by"};
+			String[] searchby = {"Search by"};// add elements
 			JComboBox jbox2 = new JComboBox(searchby);
 			jbox2.setBounds(50,175,100,30);
 			frame1.add(jbox2);
