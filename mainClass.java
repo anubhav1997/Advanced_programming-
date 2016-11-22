@@ -1,6 +1,6 @@
 class mainClass{
 	public static void main(String[] args){
-	int c,d;
+	int c,d,e;
 
 	}
 }
